@@ -43,6 +43,8 @@ python3 valuation.py   --help      # valuation range from multiples + sensitivit
 | `references/valuation-and-comparables.md` | Multiples (3–10× ARR / 12–36× MRR) + building comps |
 | `references/value-extraction-sop.md` | The day-by-day 30-day flip playbook |
 | `references/growth-and-marketing.md` | AARRR, TTV, pricing psychology, "Different not Better" |
+| `references/financing-acquisitions.md` | Funding the buy: capital stack, seller financing, earnouts |
+| `references/closing-and-legal.md` | LOI → APA → escrow, asset-transfer checklist, legal pitfalls |
 | `references/exit-and-resale.md` | When/where/how to sell, data room, negotiation, deal structure |
 | `scripts/saas_metrics.py` · `scripts/valuation.py` | The calculators |
 | `templates/` | `deal-memo.md`, `flip-plan.md`, `exit-prospectus.md` output templates |
@@ -77,6 +79,20 @@ these **live at runtime** for current multiples, comps, and tactics.
 - [SaaS marketing strategy (Leadfeeder)](https://www.leadfeeder.com/blog/marketing-strategy/saas-marketing/) — acquisition and demand-gen playbooks.
 - [SaaS marketing (Paddle)](https://www.paddle.com/resources/saas-marketing) — pricing, funnels, and growth from a SaaS payments leader.
 - [SaaS product strategy framework (ProductLed)](https://productled.com/blog/saas-product-strategy-framework) — product-led growth, activation, and TTV.
+
+## 🤝 Deal Structure, Financing & Closing
+- [How to structure a SaaS acquisition deal (Acquire blog)](https://blog.acquire.com/how-to-structure-a-saas-acquisition-deal-that-makes-you-and-the-buyer-happy/) — cash/earnout/equity blends that close deals.
+- [What is an Asset Purchase Agreement? (+ template) (Acquire)](https://blog.acquire.com/what-is-an-asset-purchase-agreement/) — the binding contract explained.
+- [Technology & SaaS M&A legal guide (Acquisition Stars)](https://acquisitionstars.com/blog/technology-saas-ma-guide) — buyer/seller legal walkthrough.
+- [Micro-SaaS funding when EBITDA < $500K (Distilled Funding)](https://www.distilledfunding.com/post/micro-saas-acquisitions-funding-options-when-ebitda-500k) — SBA, revenue-based, and the capital stack.
+- [Seller notes, earnouts & SBA — building blocks of a deal (ClearlyAcquired)](https://www.clearlyacquired.com/blog/seller-notes-earnouts-and-sba-the-building-blocks-of-a-main-street-deal) — small-deal financing mechanics.
+- [Escrow.com for safer startup acquisitions](https://www.escrow.com/partners/landing/microacquire) — how escrow protects both sides at close.
+
+## 🚩 Due Diligence & Red Flags
+- [8 red flags in SaaS due diligence (Acquire)](https://blog.acquire.com/8-red-flags-to-beware-of-when-doing-due-diligence-on-a-saas-startup/) — what to walk away from.
+- [SaaS due diligence red flags that cut valuation in 2026 (ConsultEFC)](https://consultefc.com/saas-due-diligence-red-flags-valuation/) — current valuation-killers.
+- [27-point SaaS due diligence checklist (The Ownix)](https://theownix.com/en/blog/saas-due-diligence-checklist-27-points) — a thorough buyer checklist.
+- [Buy a $5K micro-SaaS and grow it — 2026 playbook (BuildMVPFast)](https://www.buildmvpfast.com/blog/buy-micro-saas-grow-acquisition-playbook-2026) — end-to-end small-deal walkthrough.
 
 ## 🎯 Differentiation & Positioning
 - [Stop struggling with differentiation (edwinabl)](https://www.edwinabl.com/articles/stop-struggling-with-differentiation) — "different, not better" positioning.

@@ -43,12 +43,21 @@ The add-backs are where value is created or hidden — interrogate every line. U
 
 ## Red flags (discount or walk)
 - **Declining MRR** or churn trending up over the last 3–6 months.
-- **Customer concentration** >20–30% in one account.
+- **Raw MRR with no cohort breakdown** — sellers hide the churn story by showing only the headline.
+  Demand cohorts; voluntary churn persistently >5% signals weak product-market fit.
+- **Revenue from heroics that don't scale** — a spike driven by a one-off discount, founder-led
+  selling, unpaid/trial usage, or a single exceptional quarter. If growth needs the founder's
+  personal effort, it won't survive transfer.
+- **Customer concentration** — top 5 customers >40% of revenue (or any one account >20–30%).
 - **LTD cash bomb** — lifetime deals inflating the headline number.
 - **Fake / paid traffic** with no organic baseline; referral spam.
-- **Hidden tech debt** — out-of-date packages, no tests, fragile single-server setup,
+- **A single third-party API doing the core work**, billed per call — model the real cost; if it
+  eats a huge share of gross revenue (e.g. 40%+), the margin is an illusion.
+- **Hidden tech debt** — out-of-date packages, no tests, single-tenant/fragile architecture,
   undocumented one-person knowledge.
-- **Margin erosion** — LLM/API costs scaling with usage faster than revenue.
+- **Security rot** — missing access controls, weak auth, no backups, loose customer-data handling.
+- **Founder behavior** — refuses reasonable info requests (hiding something), or shows zero command
+  of their own numbers (lazy/disengaged). Both predict a painful transfer.
 - Seller won't verify revenue or give code access.
 
 ## Green flags (pay up / move fast)

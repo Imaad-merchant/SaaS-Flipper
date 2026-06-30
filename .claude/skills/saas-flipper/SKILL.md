@@ -43,6 +43,8 @@ hand-wave.
 | `references/valuation-and-comparables.md` | Multiples (3–10× ARR / 12–36× MRR); building comps |
 | `references/value-extraction-sop.md` | The day-by-day 30-day flip playbook |
 | `references/growth-and-marketing.md` | AARRR, TTV, pricing psychology, "Different not Better" |
+| `references/financing-acquisitions.md` | Funding the buy: capital stack, seller financing, earnouts |
+| `references/closing-and-legal.md` | LOI → APA → escrow, transfer checklist, legal pitfalls |
 | `references/exit-and-resale.md` | When/where/how to sell; data room; negotiation; deal structure |
 
 ## Helper scripts (run them — don't compute by hand)

@@ -35,9 +35,13 @@ another deal.
 > spend. Decide **BUY / PASS / COUNTER** with a number.
 
 ## Stage 3 — BUY (close cleanly)
-- Agree price **and structure** (cash / earnout / seller financing — see `exit-and-resale.md`).
-- Contingencies: verified Stripe access, code review, clean transfer of accounts/domains/keys.
-- Get a transition-support window from the seller (e.g. 30 days).
+- Agree price **and structure** — build a capital stack (cash + seller financing + earnout) so you
+  keep a reserve for the 90-day improvement. **Detail:** `references/financing-acquisitions.md`.
+- Run the close: **LOI → confirmatory diligence → APA → escrow → transfer**. Never wire before
+  escrow confirms transfer; prefer an asset purchase; rotate every key. Use a holdback for surprises.
+  **Detail:** `references/closing-and-legal.md`.
+- Contingencies: verified Stripe access, code review, clean transfer of accounts/domains/keys, and a
+  transition-support window from the seller (e.g. 30 days).
 
 ## Stage 4 — GROW (the 90-day flip)
 - Run the **30-Day Value-Extraction SOP**, then two more cycles of growth levers:
