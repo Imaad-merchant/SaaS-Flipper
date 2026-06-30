@@ -15,7 +15,7 @@ never spend the money you need to actually grow the asset.)
 | **Investor capital / holdco** | Scaling to a portfolio | Raise once you have a track record. |
 
 > Smart acquirers use a **capital stack, not one silver bullet.** Typical micro-SaaS pricing is
-> **~2×–4× EBITDA/SDE** (or 3–10× ARR) — small enough that seller financing + your cash often closes
+> **~2×–4× EBITDA/SDE** (or ~2–4× ARR) — small enough that seller financing + your cash often closes
 > it with no bank involved.
 
 ## Seller financing (your best friend on the buy side)

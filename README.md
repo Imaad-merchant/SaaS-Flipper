@@ -40,7 +40,7 @@ python3 valuation.py   --help      # valuation range from multiples + sensitivit
 | `references/master-playbook.md` | **The end-to-end plan** — 5 stages, decision gates, risk rules |
 | `references/sourcing-and-marketplaces.md` | How + where to find deals (deal-flow system) + the **Trap Filter** |
 | `references/due-diligence.md` | Numbers to demand, SDE add-backs, red/green flags |
-| `references/valuation-and-comparables.md` | Multiples (3–10× ARR / 12–36× MRR) + building comps |
+| `references/valuation-and-comparables.md` | Multiples (~2–4× ARR for micro-SaaS, up to 8×) + building comps |
 | `references/value-extraction-sop.md` | The day-by-day 30-day flip playbook |
 | `references/growth-and-marketing.md` | AARRR, TTV, pricing psychology, "Different not Better" |
 | `references/financing-acquisitions.md` | Funding the buy: capital stack, seller financing, earnouts |
@@ -112,7 +112,7 @@ them automatically:
 - **The Trap Filter** — when an asset is a structural trap (thin AI wrapper, horizontal, mispriced, LTD bomb). → `references/sourcing-and-marketplaces.md`
 - **The 30-Day Value-Extraction SOP** — the day-by-day flip playbook. → `references/value-extraction-sop.md`
 - **"Different, not Better" transformation protocol** — workflow-over-LLM, vertical pivot, monetization pivot. → `references/growth-and-marketing.md`
-- **Valuation bands** — 3–10× ARR / 12–36× MRR with quality adjustments. → `references/valuation-and-comparables.md` + `scripts/valuation.py`
+- **Valuation bands** — ~2–4× ARR for sub-$1M micro-SaaS (up to 8× top-quartile) with quality adjustments. → `references/valuation-and-comparables.md` + `scripts/valuation.py`
 
 ---
 

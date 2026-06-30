@@ -47,10 +47,13 @@ growth alone. Weight those factors heaviest when positioning a multiple.
 | Real recurring (card-on-file)          | LTD-propped or one-off revenue |
 
 ## Worked arbitrage example (the whole game in one line)
-A tool at **$200/mo** ($2,400 ARR). Bought for **~$3,000** (≈15× MRR — cheap because
+A tool at **$200/mo** ($2,400 ARR). Bought for **~$3,000** (≈15× MRR ≈ 1.25× ARR — cheap because
 distribution is broken). Over 90 days you fix onboarding, re-anchor pricing, and add a content
-funnel → **$600/mo** ($7,200 ARR). Relisted clean at a healthy multiple → **~$10,000**.
-~3.3× on capital in a quarter. The value wasn't built; it was *unlocked*.
+funnel → **$600/mo** ($7,200 ARR). Relisted at roughly the **same modest multiple** (~14× MRR ≈
+1.4× ARR) → **~$10,000**: a ~3.3× return driven almost entirely by *tripling MRR*, not by multiple
+expansion. That's the conservative floor. **The extra upside:** clean up the financials, churn, and
+owner-dependency and you can relist at a true **3–4× ARR (~$21k–29k)** — capturing revenue growth
+*and* multiple expansion. The value wasn't built; it was *unlocked*.
 
 ## Building comparables (do this every assessment)
 1. Pull 5–10 **sold or listed** comps from Acquire.com / Flippa / Microns.io / TrustMRR in the

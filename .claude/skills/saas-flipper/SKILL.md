@@ -40,7 +40,7 @@ hand-wave.
 | `references/master-playbook.md` | **The end-to-end plan** — 5 stages + decision gates, start here for "what's the plan?" |
 | `references/sourcing-and-marketplaces.md` | How + where to find deals (deal-flow system, buy-box); the **Trap Filter** |
 | `references/due-diligence.md` | What numbers to demand; SDE add-backs; red/green flags |
-| `references/valuation-and-comparables.md` | Multiples (3–10× ARR / 12–36× MRR); building comps |
+| `references/valuation-and-comparables.md` | Multiples (~2–4× ARR for micro-SaaS, up to 8×); building comps |
 | `references/value-extraction-sop.md` | The day-by-day 30-day flip playbook |
 | `references/growth-and-marketing.md` | AARRR, TTV, pricing psychology, "Different not Better" |
 | `references/financing-acquisitions.md` | Funding the buy: capital stack, seller financing, earnouts |
