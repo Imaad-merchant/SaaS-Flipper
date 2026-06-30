@@ -1,35 +1,52 @@
 # SaaS Flipper 💸
 
-A Claude Code **skill** that turns Claude into a world-class micro-SaaS arbitrage operator —
-helping you **buy under-optimized SaaS businesses cheap, grow them in ~90 days, and resell them
-for a higher multiple.**
+A Claude Code **skill** that turns Claude into a **micro-PE Operating Partner** — it *leads* a
+sub-$5,000 micro-SaaS acquisition end to end. It interviews you, studies competitors, judges flip
+potential, builds the value-creation plan and execution to-do, and generates an investor PowerPoint.
+It's **brutally honest**: it rates your ideas, pushes back, and does not rubber-stamp.
 
-It does three things:
+## What it does when activated (in order)
 
-1. **Assess** a target — analyzes the numbers (MRR/ARR, churn, margins, SDE, unit economics),
-   builds comparables from live marketplace data, runs a "trap filter," and gives a
-   **BUY / PASS / COUNTER** verdict with a number.
-2. **Grow & flip** — runs a proven 30-day value-extraction SOP plus live niche research and hands
-   you a prioritized 30/60/90 plan with a target exit multiple.
-3. **Exit & resale** — tells you when to sell, where to list, how to package the data room/SOP,
-   and how to structure and negotiate the deal.
+1. **Interviews you** one section at a time — business, goals, tech stack, then financials, pricing,
+   product/tech-debt, GTM, automation.
+2. **Studies competitors** live (G2, Product Hunt, AlternativeTo, pricing pages) and forms a
+   **"different, not better"** positioning wedge.
+3. **Resale-value plan** — concrete levers, each tied to a source playbook.
+4. **Flip pros & cons** — an honest **BUY / PASS / COUNTER** scored against your guardrails.
+5. **Step-by-step execution to-do** — ordered by cash-flow × complexity (Quick-Wins → Growth → Exit).
+6. **Investor PowerPoint** — a real `.pptx` for partners/investors.
+
+### How it thinks
+- **Anti-sycophancy is a hard rule** — it rates ideas 🟢 Strong / 🟡 Mixed / 🔴 Kill it, with reasons.
+- **Sourced judgement** — opinions come from the embedded playbooks + your `config/guardrails.md` +
+  live competitor evidence, not freeform opinion. It cites what each verdict rests on.
+- **Virtual Operating Partner** — runs telemetry (churn heatmaps, pricing scans, live scorecards) on
+  your data exports, and uses live **MCP** tools (Stripe/Postgres/PostHog/AWS) when connected.
+- **Human-in-the-loop** — it drafts and simulates writes (billing changes, migration emails) but
+  **you approve** before anything executes.
 
 ## Quick start
 
 The skill lives in [`.claude/skills/saas-flipper/`](.claude/skills/saas-flipper/) and loads
-automatically in Claude Code when you ask flipping questions. Try:
+automatically in Claude Code. Try:
 
-- *"Should I buy a SaaS doing $8k MRR, 4% monthly churn, 80% margin, asking $250k?"*
-- *"What's this micro-SaaS worth? Find me comparables."*
-- *"I just bought this tool — build me a 30-day flip plan."*
-- *"How and when should I exit and resell this SaaS?"*
+- *"Evaluate this micro-SaaS I'm thinking of buying — interview me."*
+- *"Build me a value-creation plan and an investor deck for this $3.5k tool."*
+- *"Is this a good flip? Be honest."*
 
-The helper scripts run standalone too (stdlib-only Python, no install):
+**Set your rules first:** edit [`config/guardrails.md`](.claude/skills/saas-flipper/config/guardrails.md)
+— hurdle rates, churn ceilings, ARPU lens, and no-go zones the Operating Partner must obey.
+
+The helper scripts run standalone too (stdlib-only Python, no install — except the deck):
 
 ```bash
 cd .claude/skills/saas-flipper/scripts
-python3 saas_metrics.py --help     # MRR/ARR, churn, LTV, CAC, payback, Rule of 40, SDE
-python3 valuation.py   --help      # valuation range from multiples + sensitivity + flip target
+python3 saas_metrics.py       --help   # unit economics: MRR/ARR, churn, LTV, CAC, Rule of 40, SDE
+python3 valuation.py          --help   # valuation range from multiples + flip target
+python3 scorecard.py          --help   # live Rule-of-40 / LTV:CAC / NRR vs guardrails + levers
+python3 cohort_churn.py       --help   # MoM retention heatmap; early (onboarding) vs late (utility) churn
+python3 grandfathered_scan.py --help   # flag legacy underpayers vs usage; size the migration uplift
+python3 build_deck.py         --help   # investor .pptx   (one-time:  pip install python-pptx)
 ```
 
 ## Install globally (use it in every project / the desktop app)
@@ -68,18 +85,25 @@ restart). Now type **`/saas-flipper`** in any project.
 
 | Path | What it is |
 |------|------------|
-| `SKILL.md` | The persona + 3-phase workflow router |
-| `references/master-playbook.md` | **The end-to-end plan** — 5 stages, decision gates, risk rules |
-| `references/sourcing-and-marketplaces.md` | How + where to find deals (deal-flow system) + the **Trap Filter** |
+| `SKILL.md` | The Operating-Partner persona + 6-step activation flow |
+| `config/guardrails.md` | **Your rules** (loaded first): hurdle rates, churn ceilings, ARPU lens, no-go zones |
+| `references/intake-interview.md` | The one-section-at-a-time PE interview + sub-$5k vetting |
+| `references/competitor-study.md` | Mandatory competitor research → "different, not better" wedge |
+| `references/pe-value-creation.md` | PE value-creation playbook reframed for sub-$5k indie reality |
+| `references/vop-telemetry.md` | The 5 Virtual-Operating-Partner capabilities + scripts + human-in-the-loop |
+| `references/master-playbook.md` | The end-to-end pipeline — stages, decision gates, risk rules |
+| `references/sourcing-and-marketplaces.md` | How + where to find deals + the **Trap Filter** |
 | `references/due-diligence.md` | Numbers to demand, SDE add-backs, red/green flags |
-| `references/valuation-and-comparables.md` | Multiples (~2–4× ARR for micro-SaaS, up to 8×) + building comps |
-| `references/value-extraction-sop.md` | The day-by-day 30-day flip playbook |
+| `references/valuation-and-comparables.md` | Multiples (~2–4× ARR; distressed buys 12–18× MRR) + comps |
+| `references/value-extraction-sop.md` | Lean value extraction by cash-flow × complexity |
 | `references/growth-and-marketing.md` | AARRR, TTV, pricing psychology, "Different not Better" |
 | `references/financing-acquisitions.md` | Funding the buy: capital stack, seller financing, earnouts |
 | `references/closing-and-legal.md` | LOI → APA → escrow, asset-transfer checklist, legal pitfalls |
 | `references/exit-and-resale.md` | When/where/how to sell, data room, negotiation, deal structure |
-| `scripts/saas_metrics.py` · `scripts/valuation.py` | The calculators |
-| `templates/` | `deal-memo.md`, `flip-plan.md`, `exit-prospectus.md` output templates |
+| `scripts/saas_metrics.py` · `valuation.py` · `scorecard.py` | Unit economics, valuation, health scorecard |
+| `scripts/cohort_churn.py` · `grandfathered_scan.py` | Telemetry: retention heatmap, legacy-underpayer scan |
+| `scripts/build_deck.py` | Generates the investor `.pptx` (needs `python-pptx`) |
+| `templates/` | interview/competitor-matrix, value-creation-playbook, execution-todo, deal-memo, exit-prospectus, sample deck JSON |
 
 ---
 
@@ -142,9 +166,16 @@ these **live at runtime** for current multiples, comps, and tactics.
 These operator frameworks are encoded directly into the skill's reference files so Claude applies
 them automatically:
 - **The Trap Filter** — when an asset is a structural trap (thin AI wrapper, horizontal, mispriced, LTD bomb). → `references/sourcing-and-marketplaces.md`
-- **The 30-Day Value-Extraction SOP** — the day-by-day flip playbook. → `references/value-extraction-sop.md`
-- **"Different, not Better" transformation protocol** — workflow-over-LLM, vertical pivot, monetization pivot. → `references/growth-and-marketing.md`
+- **Value extraction by cash-flow × complexity** — lean Quick-Wins → Growth → Exit (no calendar bloat). → `references/value-extraction-sop.md`
+- **"Different, not Better" transformation protocol** — workflow-over-LLM, vertical pivot, monetization pivot. → `references/growth-and-marketing.md` + `references/competitor-study.md`
 - **Valuation bands** — ~2–4× ARR for sub-$1M micro-SaaS (up to 8× top-quartile) with quality adjustments. → `references/valuation-and-comparables.md` + `scripts/valuation.py`
+
+### 🏛️ Operating-Partner frameworks (from user-provided PE playbooks)
+Synthesized into the upgraded skill so Claude operates like an institutional partner, scaled to sub-$5k:
+- **PE intake interview** — the one-section-at-a-time diagnostic. → `references/intake-interview.md`
+- **PE value-creation playbook** — Holy-Trinity metrics (LTV/CAC>3×, NRR>100%, Rule of 40≥40), pricing/packaging levers, multiple arbitrage, small bolt-ons. → `references/pe-value-creation.md`
+- **Virtual Operating Partner** — telemetry & action (cohort heatmap, grandfathered scan, live scorecard, add-on scouting, tech-debt audit), MCP-aware, human-in-the-loop. → `references/vop-telemetry.md`
+- **Guardrails + human-in-the-loop** — user-set hurdle rates & no-go zones; draft/simulate, approve-to-execute. → `config/guardrails.md`
 
 ---
 

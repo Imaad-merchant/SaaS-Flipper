@@ -1,0 +1,50 @@
+{
+  "title": {
+    "title": "Project Inboxly — Acquisition Brief",
+    "subtitle": "Sub-$5k micro-SaaS flip · email-snippet tool for solo consultants",
+    "date": "Prepared for partners"
+  },
+  "core_asset_arbitrage": {
+    "purchase_price": "$3,500",
+    "current_state": {
+      "mrr": "$150",
+      "paying_users": "5",
+      "hosting_cost": "$40/mo"
+    },
+    "underlying_value": "Code is built, functional, and has validated paying users — skip the build risk."
+  },
+  "value_creation": [
+    {"lever": "Pricing", "flaw": "Priced at $5/mo, way too low", "move": "Kill $5 plan; add $29 starter + $79 team", "result": "Revenue doubles even at 50% churn"},
+    {"lever": "Hosting", "flaw": "Heavy logs on an expensive tier", "move": "Clean queries, migrate to lean VPS/Supabase", "result": "Infra overhead ~ $0"},
+    {"lever": "Distribution", "flaw": "Zero marketing, one Reddit post", "move": "25 personalized LinkedIn/X touches/day", "result": "One repeatable acquisition channel"}
+  ],
+  "tech_stack": [
+    "Next.js + React frontend, modular",
+    "Supabase (Postgres) backend",
+    "Stripe billing",
+    "Low founder-dependency; basic docs present"
+  ],
+  "competitors": {
+    "matrix": [
+      {"name": "BigRivalA", "pricing": "$49+/mo", "icp": "Mid-market teams", "gap": "Bloated, ignores solo users"},
+      {"name": "BigRivalB", "pricing": "$29/mo seat", "icp": "Agencies", "gap": "No 1-click workflow"}
+    ],
+    "wedge": "For solo consultants, win by a 1-click 'send' workflow + flat pricing that per-seat incumbents structurally won't copy."
+  },
+  "financials": {
+    "MRR": "$150 → target $600",
+    "Gross margin": "82%",
+    "Rule of 40": "fix to >= 40 via price + margin",
+    "Target resale multiple": "3x ARR"
+  },
+  "exit": {
+    "Where": "Acquire.com / Microns.io",
+    "Target price": "~$21,000 (3x ARR at $600 MRR)",
+    "Readiness": "3+ months stable MRR, SOP written, churn proven down"
+  },
+  "ask": [
+    "Capital: $3,500 acquisition + $1,500 improvement reserve",
+    "Timeline: flip in 60-90 days",
+    "Projected return: ~3x on capital"
+  ]
+}
