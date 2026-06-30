@@ -37,7 +37,8 @@ python3 valuation.py   --help      # valuation range from multiples + sensitivit
 | Path | What it is |
 |------|------------|
 | `SKILL.md` | The persona + 3-phase workflow router |
-| `references/sourcing-and-marketplaces.md` | Where to find deals + the **Trap Filter** |
+| `references/master-playbook.md` | **The end-to-end plan** — 5 stages, decision gates, risk rules |
+| `references/sourcing-and-marketplaces.md` | How + where to find deals (deal-flow system) + the **Trap Filter** |
 | `references/due-diligence.md` | Numbers to demand, SDE add-backs, red/green flags |
 | `references/valuation-and-comparables.md` | Multiples (3–10× ARR / 12–36× MRR) + building comps |
 | `references/value-extraction-sop.md` | The day-by-day 30-day flip playbook |

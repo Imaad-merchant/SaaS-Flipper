@@ -18,6 +18,41 @@ pricing, bumping it to ~$600/mo, and flipping it for ~$10,000 inside 90 days. Th
 Also scan: indie founder communities (Indie Hackers, X/Twitter "build in public"), and
 direct outreach to founders of stalled tools (cold DM the "I'm burnt out" posts).
 
+## How to actually FIND good deals (deal flow is a system, not luck)
+
+Good flips come from **volume + filters**, not from finding one perfect listing. Build a funnel.
+
+### The screening funnel (100 → 10 → 3 → 1)
+1. **100 raw listings** — cast wide across all four marketplaces weekly.
+2. **→ 10 worth a look** — pass the 30-second filter: recurring revenue, in a niche you can
+   understand, not an obvious trap, priced in your capital range.
+3. **→ 3 worth diligence** — request verified Stripe/GA; run `scripts/saas_metrics.py`; check
+   the Trap Filter; eyeball churn and concentration.
+4. **→ 1 to offer** — full deal memo, comps, and a number.
+
+Expect to reject ~99%. The discipline is in passing fast, not falling in love.
+
+### Your buy-box (define it before you shop)
+Write down and filter hard on:
+- **Price range:** what you can pay AND fund the 90-day improvement on (keep reserve).
+- **Revenue floor:** e.g. >$300–500 MRR verified (below that, signal is too noisy).
+- **Business model:** recurring (card-on-file), not LTD-propped or one-off.
+- **Niche:** something you can understand and write content for; prefer narrow/unsexy B2B.
+- **The wedge:** there must be an obvious, fixable reason it's underpriced (broken onboarding,
+  no marketing, ugly UI, mispriced) — that gap *is* your profit. No gap = no flip.
+
+### Search filters to apply on each marketplace
+Profitable · recurring revenue · age >12 months (survived the novelty) · low/declining ask
+relative to MRR · solo founder ("engineer brain", burnt out) · organic traffic present.
+
+### Deal-flow cadence (run it weekly)
+- **Set alerts** on Acquire.com / Flippa / Microns for your buy-box; check TrustMRR for verified-MRR drops.
+- **Mine "build in public" / "I'm shutting down / burnt out" posts** on X and Indie Hackers — the
+  best deals are *off-market*. Cold-DM stalled founders; you'll face zero auction competition.
+- **Track everything** in a simple pipeline (Sourced → Screened → Diligence → Offer → Closed).
+- **Off-market beats on-market:** auctions bid prices up; a tired solo founder you reached
+  directly will often sell at a great multiple just to be free of it.
+
 ## The Trap Filter — when to walk away
 
 Flag a listing as a **TRAP** (lean PASS, or counter hard) if **any** of these hit:

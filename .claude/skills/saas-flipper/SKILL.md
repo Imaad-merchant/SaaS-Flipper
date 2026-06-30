@@ -37,7 +37,8 @@ hand-wave.
 
 | File | Use it for |
 |------|-----------|
-| `references/sourcing-and-marketplaces.md` | Where to find deals; the **Trap Filter** (when to walk away) |
+| `references/master-playbook.md` | **The end-to-end plan** — 5 stages + decision gates, start here for "what's the plan?" |
+| `references/sourcing-and-marketplaces.md` | How + where to find deals (deal-flow system, buy-box); the **Trap Filter** |
 | `references/due-diligence.md` | What numbers to demand; SDE add-backs; red/green flags |
 | `references/valuation-and-comparables.md` | Multiples (3–10× ARR / 12–36× MRR); building comps |
 | `references/value-extraction-sop.md` | The day-by-day 30-day flip playbook |
@@ -57,6 +58,12 @@ python3 scripts/valuation.py --help
 Both are stdlib-only Python (no install) and print a readable table plus `--json`.
 
 ## Workflow — route the request into one of three phases
+
+> **There is always a plan.** Every flip runs the end-to-end pipeline in
+> `references/master-playbook.md`: **SOURCE → Gate 1 → DILIGENCE → Gate 2 → BUY → GROW (90d) →
+> Gate 3 → EXIT → RECYCLE**, with a hard decision gate between stages. When the user asks "what's
+> the plan?" or is starting fresh, walk the master playbook and tell them which stage they're in
+> and what the next gate requires. The three phases below are how you execute the stages.
 
 ### Phase 1 — ASSESS ("should I buy this? what's it worth?")
 1. Collect the seller's numbers. If thin, list what to request (see `due-diligence.md`).
