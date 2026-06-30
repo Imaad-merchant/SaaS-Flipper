@@ -32,6 +32,38 @@ python3 saas_metrics.py --help     # MRR/ARR, churn, LTV, CAC, payback, Rule of 
 python3 valuation.py   --help      # valuation range from multiples + sensitivity + flip target
 ```
 
+## Install globally (use it in every project / the desktop app)
+
+By default the skill only shows up when Claude Code is opened **at this repo's root**. To make
+`/saas-flipper` available in **every** project — including the **desktop app** — install it into your
+personal skills folder (`~/.claude/skills/`).
+
+> ℹ️ The command is **`/saas-flipper`** — one word, hyphen, **no space**. (Typing `/saas flipper`
+> with a space won't match.) The command name comes from the skill's folder name.
+
+**One command** (from the repo root, after you've cloned/pulled this repo locally):
+
+```bash
+bash install-global.sh
+```
+
+**Or copy it manually:**
+
+```bash
+# macOS / Linux
+mkdir -p ~/.claude/skills && cp -r .claude/skills/saas-flipper ~/.claude/skills/
+```
+
+```powershell
+# Windows (PowerShell)
+New-Item -ItemType Directory -Force ~/.claude/skills
+Copy-Item -Recurse -Force .claude/skills/saas-flipper ~/.claude/skills/
+```
+
+**Then:** if `~/.claude/skills/` didn't already exist, **fully quit and reopen the desktop app** so it
+picks up the new skills folder (existing skills hot-reload, but a brand-new top-level folder needs a
+restart). Now type **`/saas-flipper`** in any project.
+
 ## What's inside
 
 | Path | What it is |
