@@ -5,10 +5,12 @@ Produces a low / base / high valuation range from revenue multiples (with an
 optional SDE cross-check), adjusts the multiple for quality factors, shows
 sensitivity to the multiple, and computes an implied flip target. Stdlib only.
 
-Default bands (industry priors — confirm against live comps):
-  ARR multiple : 3x - 10x   (base 5x)
-  MRR multiple : 12x - 36x  (same band, monthly)
+Default bands (grounded in 2026 micro-SaaS reality — confirm against live comps):
+  ARR multiple : 2x - 8x    (base 3x; sub-$1M micro-SaaS clears ~2-4x, 8x is top-quartile)
   SDE multiple : 2x - 4x    (annual, owner-operated)
+Note: the often-quoted "8-10x ARR" is a larger-deal/top-quartile figure (median private
+SaaS ~4.5x revenue per Aventis Advisors, a dataset that skews to $50M+ deals), NOT a
+default for small flips. Anchor low; let quality factors earn the way up.
 
 Examples
 --------
@@ -183,7 +185,7 @@ def render(o):
             L.append(f"    Gross gain over asking : "
                      f"{money(f['projected_gross_gain_over_asking'])}")
     L.append("")
-    L.append("NOTE: bands are priors — confirm against live Acquire/Flippa/Microns comps.")
+    L.append("NOTE: micro-SaaS clears ~2-4x ARR; 8x+ is top-quartile. Confirm against live comps.")
     L.append("")
     return "\n".join(L)
 
@@ -198,9 +200,9 @@ def build_parser():
     p.add_argument("--sde", type=float, help="Annual SDE ($) for cross-check valuation")
     p.add_argument("--asking", type=float, help="Seller's asking price ($) for a verdict")
     # Multiple band (ARR).
-    p.add_argument("--mult-low", type=float, default=3.0, help="Low ARR multiple")
-    p.add_argument("--mult-base", type=float, default=5.0, help="Base ARR multiple")
-    p.add_argument("--mult-high", type=float, default=10.0, help="High ARR multiple")
+    p.add_argument("--mult-low", type=float, default=2.0, help="Low ARR multiple")
+    p.add_argument("--mult-base", type=float, default=3.0, help="Base ARR multiple")
+    p.add_argument("--mult-high", type=float, default=8.0, help="High ARR multiple")
     # SDE band.
     p.add_argument("--sde-mult-low", type=float, default=2.0, help="Low SDE multiple")
     p.add_argument("--sde-mult-high", type=float, default=4.0, help="High SDE multiple")

@@ -2,15 +2,37 @@
 
 ## The multiples (the durable method)
 
-Micro-SaaS trades on a multiple of recurring revenue or SDE:
+Micro-SaaS trades on a multiple of recurring revenue or SDE.
 
-- **ARR multiple:** typically **3×–10× ARR**.
-- **MRR multiple:** typically **12×–36× MRR** (the same band expressed monthly).
-- **SDE multiple:** small owner-operated deals often quoted as **~2×–4× SDE** (annual).
+### ⚠️ Reality check — keep micro-SaaS multiples grounded (verified, 2026)
+The "8–10× ARR" figure you'll hear quoted is a **larger-deal / top-quartile** number, not a default.
+Specialist M&A data (Aventis Advisors, 543 deals since 2015) puts the **median private SaaS at
+~4.5× revenue** (top quartile >8.1×, median ~23× EBITDA) — and that dataset skews toward $50M+
+transactions. **Genuinely sub-$1M micro-SaaS on marketplaces realistically clears ~2–4× ARR.**
+Treat the high end of any band as reserved for assets that are larger, fast-growing, profitable, and
+low-churn — most flips are not that. Underwriting at 2–4× keeps you from overpaying. *(Source:
+[Aventis Advisors — SaaS valuation multiples](https://aventis-advisors.com/saas-valuation-multiples/).)*
 
-> These are *bands*, not constants — they move with the market. Before quoting a live number,
-> `WebSearch`/`WebFetch` current Acquire.com / Flippa / Microns listings for the asset's size
-> and niche, and adjust. The band above is the prior; comps are the evidence.
+The market has also shifted **growth-first → profitability-first** (public-SaaS median growth ~12%,
+EBITDA margins ~9–10% as of Q4 2025): buyers now pay up for **margin, low churn, and retention**, not
+growth alone. Weight those factors heaviest when positioning a multiple.
+
+### Working bands
+- **ARR multiple:** micro-SaaS typically **~2×–4× ARR**; up to **~8×** only for exceptional
+  (fast-growing, profitable, low-churn, defensible) assets. The often-cited 3–10× is the *broad* SaaS
+  band — anchor to the low half for small deals.
+- **MRR multiple:** **~24×–48× MRR** at 2–4× ARR (same thing, monthly). Distressed/underoptimized
+  assets are often *acquired* far cheaper (12–18× MRR) — that gap is the flip.
+- **SDE multiple:** small owner-operated deals quoted as **~2×–4× SDE** (annual).
+
+> These are *bands*, not constants — they move with the market and skew with deal size. Before quoting
+> a live number, `WebSearch`/`WebFetch` current Acquire.com / Flippa / Microns listings for the asset's
+> size and niche, and adjust. The band above is the prior; comps are the evidence.
+>
+> **Do NOT rely on these refuted rules of thumb:** "≥40% ARR growth commands 7–10× while <20% gets
+> 3–5×," and "Rule-of-40 score drives the multiple at ~1.1× per 10 points." Adversarial verification
+> of 2026 data refuted both as deterministic rules. Growth, margin, and Rule-of-40 *inform* where in
+> the band you land — they are not a formula. Always confirm against live comps.
 
 ### What moves the multiple
 

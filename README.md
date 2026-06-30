@@ -98,6 +98,10 @@ these **live at runtime** for current multiples, comps, and tactics.
 - [Stop struggling with differentiation (edwinabl)](https://www.edwinabl.com/articles/stop-struggling-with-differentiation) — "different, not better" positioning.
 - [Custom website vs template (Connective)](https://connectivewebdesign.com/blog/custom-website-vs-template) — when a UI facelift moves the needle.
 
+## 📊 Valuation Data (benchmarks)
+- [SaaS valuation multiples (Aventis Advisors)](https://aventis-advisors.com/saas-valuation-multiples/) — 543-deal dataset; median private SaaS ~4.5× revenue / ~23× EBITDA (skews to large deals — micro-SaaS clears lower, ~2–4× ARR). *Verified via deep research, 2026.*
+- [Acquire.com biannual acquisition multiples report (Jan 2026)](https://blog.acquire.com/acquire-com-biannual-acquisition-multiples-report-jan-2026/) — marketplace-level multiples for small deals.
+
 ## 🌐 Market & Industry Trends
 - [Platform consolidation 2026 — SaaS stack reduction & AI (Vantagepoint)](https://vantagepoint.io/blog/sf/insights/platform-consolidation-2026-saas-stack-reduction-ai) — where the market is heading.
 - [SaaS industry monitor (BetterCloud)](https://www.bettercloud.com/monitor/saas-industry/) — ongoing industry data and benchmarks.
